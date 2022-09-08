@@ -41,13 +41,13 @@ header {
 main{
     width: 88%;
     margin: 0 auto;
-    height: calc(100vh - 140px);
+    height: calc(100vh - 160px);
 }
 
 footer {
     margin-top:20px ;
     width: 100%;
-    height: 60px;
+    height: 80px;
     background-color: var(--grey);
 }
 
@@ -112,3 +112,47 @@ footer {
     background-color: rgb(74,74,74, 0.8);
     padding: 4px 4px;
 }
+
+
+/* footer */
+.flex-foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-footer {
+    display: flex;
+}
+
+.btn-foot {
+    font-size: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+.div-footer i{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.txt-btn{
+    display: inline-block;
+}
+
+.caret {
+    display: flex;
+    justify-content: center;
+}
+
+.caret i{
+    font-size: 12px;
+}
+
+.last-div{
+   background-color: var(--grey-light);
+   min-width: 150px;
+   position: relative;
+}
+
