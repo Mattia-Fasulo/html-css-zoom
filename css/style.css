@@ -1,0 +1,25 @@
+/* scaffold */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+:root {
+    --black: #222222;
+    --grey: #4a4a4a;
+    --red: #cb2d30;
+    --white: #ffffff;
+    --green: #4ac800;
+}
+
+body {
+    background-color: var(--white);
+    font-family: Verdana, Tahoma, sans-serif;
+}
