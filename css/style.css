@@ -152,7 +152,24 @@ footer {
 
 .last-div{
    background-color: var(--grey-light);
-   min-width: 150px;
+   min-width: 170px;
    position: relative;
 }
 
+#green {
+    color:  var(--green);
+}
+
+#end {
+    position: relative;
+    width: 100%
+}
+
+#end h2 {
+    color: var(--red);
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
